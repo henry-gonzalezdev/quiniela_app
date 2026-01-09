@@ -36,7 +36,7 @@ export const InputSecret = ({ id, form, label, description, icon, iconDirection,
 			control={form.control}
 			name={id}
 			render={({ field, formState }) => (
-				<FormItem className={cn('w-full space-y-0', classNameContainer)}>
+				<FormItem className={cn('w-full', classNameContainer)}>
 					<div className='flex flex-col justify-start items-start'>
 						{label && <FormLabel className='font-semibold'>{label}</FormLabel>}
 					</div>
@@ -69,7 +69,7 @@ export const InputSecret = ({ id, form, label, description, icon, iconDirection,
 							)
 						}
 
-						<div className='absolute inset-y-0 right-0 flex items-center pr-3 z-10 text-zinc-700 mb-1'>
+						<div className='absolute inset-y-0 right-0 flex items-center pr-3 z-10 text-zinc-700'>
 							<button
 								type='button'
 								tabIndex={-1}
