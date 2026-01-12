@@ -43,7 +43,7 @@ export const ThemeToggle = ({
 			variant={variant}
 			size={size}
 			onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}
-			className={cn('h-9 w-9 border-2 border-gray-200 dark:border-gray-800', className)}
+			className={cn('h-9 w-9 border-2 border-gray-200 dark:border-gray-800 cursor-pointer', className)}
 			aria-label="Cambiar tema"
 		>
 			{theme === 'dark' ? (

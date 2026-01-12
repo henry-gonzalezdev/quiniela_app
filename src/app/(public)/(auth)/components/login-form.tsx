@@ -48,7 +48,7 @@ export const SignInForm = () => {
 					<Button
 						type='submit'
 						size={'lg'}
-						className='w-full'
+						className='w-full cursor-pointer'
 						disabled={false}
 					>
 						Ingresar
